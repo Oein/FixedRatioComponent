@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import FixedRatio from '@/lib/FixedRatio.svelte';
+</script>
+
+<div class="wrapper">
+	<FixedRatio />
+</div>
+
+<style lang="scss">
+	.wrapper {
+		width: 100vw;
+		height: 100vh;
+	}
+</style>
