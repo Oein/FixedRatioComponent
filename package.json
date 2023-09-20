@@ -1,7 +1,7 @@
 {
 	"name": "fixedratio",
-	"version": "0.0.1",
-	"private": true,
+	"version": "1.0.0",
+	"private": false,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -40,5 +40,6 @@
 	},
 	"dependencies": {
 		"svelte": "^4.2.1"
-	}
+	},
+	"types": "./dist/index.d.ts"
 }
