@@ -32,12 +32,6 @@
 	"files": [
 		"dist"
 	],
-	"exports": {
-		".": {
-			"types": "./dist/index.d.ts",
-			"svelte": "./dist/index.js"
-		}
-	},
 	"dependencies": {
 		"svelte": "^4.2.1"
 	},
